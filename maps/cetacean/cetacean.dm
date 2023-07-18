@@ -12,7 +12,10 @@
 	#include "cetacean_jobs.dm"
 	#include "cetacean_spawnpoints.dm"
 
+	#include "jobs/executive.dm"
 	#include "jobs/noncrew.dm"
+
+	#include "outfits/executive.dm"
 
 	#include "cetacean.dmm"
 
