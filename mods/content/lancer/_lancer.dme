@@ -1,0 +1,11 @@
+#ifndef MODPACK_LANCER
+#define MODPACK_LANCER
+// BEGIN_INCLUDE
+#include "_lancer.dm"
+#include "manna.dm"
+#include "overrides.dm"
+#include "cultures\cultures.dm"
+#include "cultures\factions.dm"
+#include "machines\machines.dm"
+// END_INCLUDE
+#endif

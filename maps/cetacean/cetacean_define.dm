@@ -1,11 +1,11 @@
 /datum/map/cetacean
 	name = "Cetacean"
-	full_name = "ACO Cetacean"
+	full_name = "\the Cetacean"
 	path = "cetacean"
 	ground_noun = "deck"
 
-	station_name  = "ACO Cetacean"
-	station_short = "Cetacean"
+	station_name  = "\the Cetacean"
+	station_short = "\the Cetacean"
 
 	dock_name     = "FTS Capitalist's Rest"
 	boss_name     = "Access Corridor"
@@ -18,10 +18,37 @@
 	emergency_shuttle_called_message = "Attention all hands: emergency evacuation procedures are now in effect. Escape pods will launch in %ETA%"
 	emergency_shuttle_recall_message = "Attention all hands: emergency evacuation sequence aborted. Return to normal operating conditions."
 	evac_controller_type = /datum/evacuation_controller/lifepods
+	default_currency = /decl/currency/manna
 
-	starting_money = 5000
-	department_money = 0
-	salary_modifier = 0.2
+	available_cultural_info = list(
+		TAG_HOMEWORLD = list(/decl/cultural_info/location/other),
+		TAG_FACTION =   list(
+			/decl/cultural_info/faction/access_corridor,
+			/decl/cultural_info/faction/ktb,
+			/decl/cultural_info/faction/harrison_armory,
+			/decl/cultural_info/faction/smith_shimano,
+			/decl/cultural_info/faction/ipsn,
+			/decl/cultural_info/faction/horizon_collective,
+			/decl/cultural_info/faction/other,
+		),
+		TAG_CULTURE =   list(
+			/decl/cultural_info/culture/diasporan,
+			/decl/cultural_info/culture/cosmopolitan,
+			/decl/cultural_info/culture/metropolitan
+		),
+		TAG_RELIGION =  list(/decl/cultural_info/religion/other)
+	)
 
-	radiation_detected_message = "High levels of radiation have been detected in proximity of the %STATION_NAME%. Please move to a shielded area such as the cargo bay, dormitories or medbay until the radiation has passed."
+	default_cultural_info = list(
+		TAG_HOMEWORLD = /decl/cultural_info/location/other,
+		TAG_FACTION =   /decl/cultural_info/faction/access_corridor,
+		TAG_CULTURE =   /decl/cultural_info/culture/diasporan,
+		TAG_RELIGION =  /decl/cultural_info/religion/other
+	)
+
+	radiation_detected_message = "High levels of radiation have been detected in proximity of \the %STATION_NAME%. Please move to a shielded area such as the cargo bay, dormitories or medbay until the radiation has passed."
 	default_telecomms_channels = list(COMMON_FREQUENCY_DATA)
+
+/datum/map/cetacean/setup_map()
+	. = ..()
+	game_year = 5016 // The canon year in Lancer is 5016u
