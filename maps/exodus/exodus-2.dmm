@@ -499,10 +499,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/exodus/security/range)
-"abr" = (
-/obj/structure/sign/warning/high_voltage,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/maintenance/foresolar)
 "abs" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
@@ -518,6 +514,10 @@
 /obj/structure/closet/emcloset,
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
+	},
+/obj/structure/sign/warning/high_voltage{
+	pixel_x = -34;
+	dir = 4
 	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/security_port)
@@ -547,12 +547,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/exodus/security/tactical)
-"abw" = (
-/obj/structure/sign/warning/high_voltage{
-	pixel_y = -32
-	},
-/turf/space,
-/area/space)
 "abx" = (
 /obj/structure/rack,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -2826,7 +2820,8 @@
 	dir = 4
 	},
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod{
 	dir = 1;
@@ -4893,7 +4888,8 @@
 /area/exodus/security/brig)
 "akt" = (
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/corner/red{
@@ -6281,10 +6277,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/exodus/security/prison)
-"and" = (
-/obj/structure/sign/warning/high_voltage,
-/turf/simulated/wall/prepainted,
-/area/exodus/maintenance/substation/security)
 "ane" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -6446,6 +6438,10 @@
 	icon_state = "0-2"
 	},
 /obj/effect/floor_decal/industrial/warning/corner,
+/obj/structure/sign/warning/high_voltage{
+	pixel_x = 34;
+	dir = 8
+	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/security_starboard)
 "ant" = (
@@ -7037,10 +7033,6 @@
 /obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor/plating,
 /area/exodus/crew_quarters/fitness)
-"aoF" = (
-/obj/structure/sign/warning/high_voltage,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/security/prison)
 "aoG" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/tiled/steel_grid,
@@ -7059,7 +7051,7 @@
 /area/exodus/maintenance/auxsolarstarboard)
 "aoK" = (
 /obj/machinery/faxmachine{
-	anchored = FALSE;
+	anchored = FALSE
 	},
 /obj/structure/table/reinforced,
 /obj/machinery/newscaster{
@@ -7402,6 +7394,10 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
+/obj/structure/sign/warning/high_voltage{
+	pixel_y = -32;
+	dir = 1
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/security/brig)
 "apx" = (
@@ -7454,7 +7450,8 @@
 	dir = 1
 	},
 /obj/machinery/status_display{
-	pixel_x = 32
+	pixel_x = 32;
+	dir = 4
 	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod{
 	dir = 4;
@@ -8952,7 +8949,8 @@
 	dir = 1
 	},
 /obj/machinery/status_display{
-	pixel_x = 32
+	pixel_x = 32;
+	dir = 4
 	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod{
 	dir = 4;
@@ -9247,7 +9245,8 @@
 /area/exodus/security/prison/dorm)
 "atb" = (
 /obj/structure/sign/warning/high_voltage{
-	pixel_x = -32
+	pixel_x = -34;
+	dir = 4
 	},
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -10153,7 +10152,8 @@
 /area/exodus/security/prison/dorm)
 "avm" = (
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /turf/simulated/floor/beach/water/ocean,
 /area/exodus/crew_quarters/fitness)
@@ -10996,6 +10996,10 @@
 	},
 /obj/effect/floor_decal/industrial/warning/corner,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/structure/sign/warning/high_voltage{
+	pixel_y = -32;
+	dir = 1
+	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/arrivals)
 "axa" = (
@@ -11708,7 +11712,8 @@
 /area/exodus/maintenance/evahallway)
 "ayD" = (
 /obj/structure/sign/warning/high_voltage{
-	pixel_y = -32
+	pixel_y = -32;
+	dir = 1
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -13001,7 +13006,8 @@
 /area/exodus/crew_quarters/toilet)
 "aBk" = (
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -13245,7 +13251,8 @@
 "aBT" = (
 /obj/machinery/computer/modular/preset/cardslot/command,
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /obj/effect/floor_decal/corner/red{
 	dir = 5
@@ -13276,7 +13283,8 @@
 "aBW" = (
 /obj/structure/table,
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /obj/random/tech_supply,
 /obj/random/tech_supply,
@@ -13780,9 +13788,15 @@
 /turf/simulated/floor/tiled/freezer,
 /area/exodus/crew_quarters/toilet)
 "aDe" = (
-/obj/structure/sign/warning/high_voltage,
-/turf/simulated/wall/prepainted,
-/area/exodus/maintenance/substation/civilian_east)
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/sign/warning/high_voltage{
+	pixel_y = -32;
+	dir = 1
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/engineering)
 "aDf" = (
 /obj/abstract/landmark{
 	name = "xeno_spawn";
@@ -13936,7 +13950,8 @@
 /area/exodus/maintenance/substation/civilian_east)
 "aDw" = (
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /obj/structure/table/woodentable,
 /obj/item/paper_bin{
@@ -14186,10 +14201,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/auxsolarstarboard)
-"aDZ" = (
-/obj/structure/sign/warning/high_voltage,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/maintenance/auxsolarport)
 "aEa" = (
 /obj/item/coin/silver{
 	pixel_x = 7;
@@ -14331,7 +14342,8 @@
 /area/exodus/ai_monitored/storage/eva)
 "aEp" = (
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /obj/effect/floor_decal/corner/lime{
 	dir = 5
@@ -14494,6 +14506,9 @@
 	},
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1
+	},
+/obj/structure/sign/warning/high_voltage{
+	pixel_y = 32
 	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/library)
@@ -14678,7 +14693,8 @@
 /area/exodus/security/checkpoint2)
 "aEV" = (
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /obj/effect/floor_decal/corner/blue{
 	dir = 5
@@ -14844,6 +14860,9 @@
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1
+	},
+/obj/structure/sign/warning/high_voltage{
+	pixel_y = 32
 	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/arrivals)
@@ -15024,7 +15043,8 @@
 /area/exodus/hallway/secondary/entry/fore)
 "aFE" = (
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -15160,6 +15180,10 @@
 	icon_state = "1-2"
 	},
 /obj/effect/floor_decal/industrial/warning/corner,
+/obj/structure/sign/warning/high_voltage{
+	pixel_x = 34;
+	dir = 8
+	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/dormitory)
 "aFR" = (
@@ -15215,6 +15239,10 @@
 	},
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
+	},
+/obj/structure/sign/warning/high_voltage{
+	pixel_x = -34;
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
 /area/exodus/crew_quarters/sleep)
@@ -15515,10 +15543,6 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/shuttle/arrival/station)
-"aGy" = (
-/obj/structure/sign/warning/high_voltage,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/maintenance/auxsolarstarboard)
 "aGz" = (
 /obj/structure/safe,
 /obj/item/clothing/under/color/yellow,
@@ -16653,7 +16677,8 @@
 /area/exodus/ai_monitored/storage/eva)
 "aII" = (
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -16927,10 +16952,6 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/secondary/entry/port)
-"aJu" = (
-/obj/structure/sign/warning/high_voltage,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/maintenance/substation/command)
 "aJv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
@@ -18042,22 +18063,13 @@
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/research_port)
 "aLO" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/machinery/status_display,
-/obj/machinery/door/firedoor,
-/obj/structure/cable/green{
-	icon_state = "0-4"
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/sign/warning/high_voltage{
+	pixel_x = 34;
+	dir = 8
 	},
-/obj/structure/cable/green{
-	icon_state = "0-8"
-	},
-/obj/machinery/door/blast/regular/open{
-	dir = 2;
-	id_tag = "bridge blast";
-	name = "Bridge Blast Doors"
-	},
-/turf/simulated/floor/plating,
-/area/exodus/bridge)
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/hallway/primary/central_three)
 "aLP" = (
 /obj/machinery/door/airlock/external/bolted{
 	id_tag = "nuke_shuttle_dock_outer";
@@ -19043,7 +19055,8 @@
 /area/exodus/crew_quarters/captain)
 "aNV" = (
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /obj/effect/floor_decal/corner/lime{
 	dir = 5
@@ -19774,9 +19787,12 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/primary/port)
 "aPr" = (
-/obj/machinery/status_display,
-/turf/simulated/wall/prepainted,
-/area/exodus/hallway/primary/central_two)
+/obj/machinery/status_display{
+	pixel_x = -32;
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/exodus/medical/medbay)
 "aPs" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -20406,6 +20422,9 @@
 /obj/effect/floor_decal/corner/blue{
 	dir = 10
 	},
+/obj/machinery/status_display{
+	pixel_y = -32
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/primary/central_one)
 "aQL" = (
@@ -20452,7 +20471,8 @@
 /area/exodus/hallway/primary/central_two)
 "aQT" = (
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /obj/machinery/door/window/westright{
 	name = "Library Desk Door"
@@ -21259,7 +21279,8 @@
 /area/exodus/maintenance/auxsolarport)
 "aSF" = (
 /obj/machinery/status_display{
-	pixel_x = 32
+	pixel_x = 32;
+	dir = 4
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -21977,6 +21998,10 @@
 	},
 /obj/effect/floor_decal/corner/lime{
 	dir = 6
+	},
+/obj/machinery/status_display{
+	pixel_x = 32;
+	dir = 4
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/primary/central_two)
@@ -23302,7 +23327,8 @@
 /area/exodus/storage/emergency2)
 "aXs" = (
 /obj/machinery/status_display{
-	pixel_x = -32
+	pixel_x = -32;
+	dir = 8
 	},
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
@@ -23434,7 +23460,8 @@
 /area/exodus/crew_quarters/bar)
 "aXG" = (
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /obj/machinery/camera/network/command{
 	c_tag = "Bridge Conference Room"
@@ -23979,9 +24006,14 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/bridge)
 "aYT" = (
-/obj/machinery/status_display,
-/turf/simulated/wall/prepainted,
-/area/exodus/hallway/primary/starboard)
+/obj/effect/floor_decal/corner/blue{
+	dir = 10
+	},
+/obj/machinery/status_display{
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/hallway/primary/central_one)
 "aYU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -24780,14 +24812,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/substation/medical)
-"baz" = (
-/obj/structure/sign/warning/high_voltage,
-/turf/simulated/wall/prepainted,
-/area/exodus/maintenance/substation/civilian_west)
-"baA" = (
-/obj/structure/sign/warning/high_voltage,
-/turf/simulated/wall/prepainted,
-/area/exodus/maintenance/substation/medical)
 "baB" = (
 /obj/structure/closet/toolcloset,
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -25320,7 +25344,8 @@
 	dir = 4
 	},
 /obj/machinery/status_display{
-	pixel_x = 32
+	pixel_x = 32;
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
 /area/exodus/security/vacantoffice)
@@ -26346,7 +26371,8 @@
 /area/exodus/crew_quarters/kitchen)
 "bdJ" = (
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /obj/effect/floor_decal/corner/lime{
 	dir = 5
@@ -26451,7 +26477,8 @@
 /area/exodus/hallway/primary/starboard)
 "bdW" = (
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass{
@@ -27188,7 +27215,8 @@
 /area/exodus/crew_quarters/bar)
 "bfH" = (
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /turf/simulated/floor/carpet,
 /area/exodus/crew_quarters/captain)
@@ -27270,7 +27298,8 @@
 /area/exodus/hallway/primary/starboard)
 "bfR" = (
 /obj/machinery/status_display{
-	pixel_x = -32
+	pixel_x = -32;
+	dir = 8
 	},
 /obj/machinery/light{
 	dir = 8
@@ -27458,7 +27487,8 @@
 "bgn" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/status_display{
-	pixel_x = -32
+	pixel_x = -32;
+	dir = 8
 	},
 /obj/machinery/light{
 	dir = 8
@@ -27771,7 +27801,8 @@
 /area/exodus/turret_protected/ai)
 "bgY" = (
 /obj/machinery/status_display{
-	pixel_x = 32
+	pixel_x = 32;
+	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable/green{
@@ -28095,7 +28126,8 @@
 /area/exodus/crew_quarters/captain)
 "bhG" = (
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/steel_grid,
@@ -28112,7 +28144,8 @@
 /area/exodus/quartermaster/storage)
 "bhI" = (
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /obj/structure/closet/emcloset,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -28161,9 +28194,15 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/quartermaster/office)
 "bhM" = (
-/obj/structure/sign/warning/nosmoking_1,
-/turf/simulated/wall/prepainted,
-/area/exodus/hallway/primary/starboard)
+/obj/effect/floor_decal/corner/lime{
+	dir = 5
+	},
+/obj/machinery/status_display{
+	pixel_y = 32;
+	dir = 1
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/hallway/primary/central_three)
 "bhN" = (
 /obj/machinery/camera/network/civilian_west{
 	c_tag = "Warehouse"
@@ -29083,6 +29122,10 @@
 	},
 /obj/effect/floor_decal/corner/lime{
 	dir = 10
+	},
+/obj/structure/sign/warning/nosmoking_1{
+	dir = 1;
+	pixel_y = -32
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/primary/starboard)
@@ -30203,12 +30246,6 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/quartermaster/storage)
-"blQ" = (
-/obj/structure/sign/department/star_of_life{
-	name = "Medbay"
-	},
-/turf/simulated/wall/prepainted,
-/area/exodus/hallway/primary/starboard)
 "blR" = (
 /obj/structure/cable/cyan{
 	icon_state = "1-4"
@@ -30531,6 +30568,9 @@
 /obj/item/stool/padded,
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 5
+	},
+/obj/structure/sign/warning/nosmoking_1{
+	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/reception)
@@ -30903,10 +30943,6 @@
 "bni" = (
 /turf/simulated/wall/prepainted,
 /area/exodus/medical/reception)
-"bnj" = (
-/obj/machinery/status_display,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/turret_protected/ai)
 "bnk" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/structure/disposalpipe/segment{
@@ -31792,7 +31828,8 @@
 /area/exodus/turret_protected/ai_upload)
 "bpd" = (
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /obj/effect/floor_decal/corner/brown{
 	dir = 5
@@ -31980,6 +32017,10 @@
 	dir = 6
 	},
 /obj/effect/floor_decal/industrial/warning/corner,
+/obj/structure/sign/warning/high_voltage{
+	pixel_x = 34;
+	dir = 8
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/primary/central_one)
 "bpB" = (
@@ -32585,7 +32626,8 @@
 /area/exodus/maintenance/locker)
 "bqH" = (
 /obj/machinery/status_display{
-	pixel_x = 32
+	pixel_x = 32;
+	dir = 4
 	},
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -32793,10 +32835,10 @@
 /obj/machinery/portable_atmospherics/powered/scrubber/huge,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/window/borosilicate_reinforced{
-	dir = 4;
+	dir = 4
 	},
 /obj/structure/window/borosilicate_reinforced{
-	dir = 1;
+	dir = 1
 	},
 /turf/simulated/floor/plating,
 /area/exodus/research/mixing)
@@ -32828,7 +32870,8 @@
 	dir = 4
 	},
 /obj/machinery/status_display{
-	pixel_x = 32
+	pixel_x = 32;
+	dir = 4
 	},
 /obj/machinery/porta_turret{
 	dir = 8
@@ -33079,7 +33122,8 @@
 	dir = 1
 	},
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -33587,10 +33631,10 @@
 /obj/machinery/portable_atmospherics/powered/scrubber/huge,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/window/borosilicate_reinforced{
-	dir = 8;
+	dir = 8
 	},
 /obj/structure/window/borosilicate_reinforced{
-	dir = 1;
+	dir = 1
 	},
 /turf/simulated/floor/plating,
 /area/exodus/research/mixing)
@@ -33835,9 +33879,6 @@
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/virology)
 "bto" = (
-/obj/structure/sign/warning/high_voltage{
-	pixel_y = -32
-	},
 /obj/structure/cable/green,
 /obj/effect/wallframe_spawn/reinforced/polarized,
 /obj/machinery/door/firedoor,
@@ -35080,6 +35121,10 @@
 	dir = 4
 	},
 /obj/item/storage/toolbox/mechanical,
+/obj/machinery/status_display{
+	dir = 4;
+	pixel_x = 32
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/research/robotics)
 "bvD" = (
@@ -35159,12 +35204,6 @@
 /obj/effect/paint/red,
 /turf/simulated/wall/titanium,
 /area/ship/exodus_pod_research)
-"bvP" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/machinery/status_display,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/plating,
-/area/exodus/medical/virology)
 "bvQ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -35447,10 +35486,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/substation/medical)
-"bwv" = (
-/obj/machinery/status_display,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/research/robotics)
 "bww" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/exodus/research)
@@ -35653,7 +35688,8 @@
 /area/exodus/crew_quarters/captain)
 "bwS" = (
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/effect/floor_decal/corner/lime{
@@ -36603,6 +36639,10 @@
 	dir = 10
 	},
 /obj/effect/floor_decal/industrial/warning/corner,
+/obj/structure/sign/warning/high_voltage{
+	pixel_x = 34;
+	dir = 8
+	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/medbay2)
 "byT" = (
@@ -36718,7 +36758,7 @@
 /obj/machinery/portable_atmospherics/powered/scrubber/huge,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/window/borosilicate_reinforced{
-	dir = 1;
+	dir = 1
 	},
 /turf/simulated/floor/plating,
 /area/exodus/research/mixing)
@@ -36946,7 +36986,7 @@
 	dir = 4
 	},
 /obj/structure/window/borosilicate_reinforced{
-	dir = 4;
+	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/research/mixing)
@@ -36954,7 +36994,7 @@
 /obj/machinery/portable_atmospherics/canister,
 /obj/effect/floor_decal/corner/purple/three_quarters,
 /obj/structure/window/borosilicate_reinforced{
-	dir = 8;
+	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/research/mixing)
@@ -37545,6 +37585,10 @@
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1
 	},
+/obj/structure/sign/warning/high_voltage{
+	pixel_x = -34;
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/research_port)
 "bAH" = (
@@ -37982,7 +38026,8 @@
 	},
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/machinery/status_display{
-	pixel_x = 32
+	pixel_x = 32;
+	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/crew_quarters/medbreak)
@@ -38971,10 +39016,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/hallway/primary/port)
-"bDy" = (
-/obj/machinery/status_display,
-/turf/simulated/wall/prepainted,
-/area/exodus/medical/medbay)
 "bDz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -40483,10 +40524,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/sleeper)
-"bGB" = (
-/obj/machinery/status_display,
-/turf/simulated/wall/prepainted,
-/area/exodus/hallway/primary/central_three)
 "bGC" = (
 /obj/machinery/camera/network/command{
 	c_tag = "AI - Messaging Server";
@@ -44480,6 +44517,10 @@
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
 	},
+/obj/structure/sign/warning/high_voltage{
+	pixel_y = -32;
+	dir = 1
+	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/research_starboard)
 "bOp" = (
@@ -45557,15 +45598,12 @@
 	},
 /obj/item/multitool,
 /obj/machinery/status_display{
-	pixel_x = -32
+	pixel_x = -32;
+	dir = 8
 	},
 /obj/structure/table/steel,
 /obj/item/scanner/plant,
 /turf/simulated/floor/plating,
-/area/exodus/storage/tech)
-"bQC" = (
-/obj/structure/sign/warning/high_voltage,
-/turf/simulated/wall/r_wall/prepainted,
 /area/exodus/storage/tech)
 "bQD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -45720,6 +45758,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
+	},
+/obj/structure/sign/warning/high_voltage{
+	pixel_x = -34;
+	dir = 4
 	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/engineering)
@@ -46480,6 +46522,10 @@
 /obj/item/aicard,
 /obj/item/aiModule/reset,
 /obj/structure/table/steel,
+/obj/structure/sign/warning/high_voltage{
+	pixel_x = -34;
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/exodus/storage/tech)
 "bSm" = (
@@ -46996,7 +47042,8 @@
 /area/exodus/medical/sleeper)
 "bTt" = (
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled/white,
@@ -47774,7 +47821,8 @@
 	dir = 8
 	},
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod{
 	dir = 1;
@@ -49058,6 +49106,10 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/structure/sign/warning/radioactive{
+	pixel_y = -32;
+	dir = 1
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering)
 "bXI" = (
@@ -49218,10 +49270,6 @@
 /turf/simulated/floor/tiled/white,
 /area/exodus/research/misc_lab)
 "bXY" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/maintenance/substation/research)
-"bXZ" = (
-/obj/structure/sign/warning/high_voltage,
 /turf/simulated/wall/r_wall/prepainted,
 /area/exodus/maintenance/substation/research)
 "bYa" = (
@@ -49604,6 +49652,10 @@
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
+	},
+/obj/structure/sign/warning/radioactive{
+	pixel_y = -32;
+	dir = 1
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering)
@@ -50109,6 +50161,10 @@
 	dir = 8
 	},
 /obj/structure/closet/wardrobe/science_white,
+/obj/structure/sign/warning/high_voltage{
+	pixel_y = -32;
+	dir = 1
+	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/research/misc_lab)
 "bZN" = (
@@ -51214,10 +51270,6 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/exodus/medical/patient_wing/washroom)
-"ccd" = (
-/obj/structure/sign/warning/high_voltage,
-/turf/simulated/wall/prepainted,
-/area/exodus/maintenance/substation/research)
 "cce" = (
 /obj/structure/cable/green{
 	icon_state = "0-4"
@@ -51476,7 +51528,8 @@
 /area/exodus/maintenance/research_port)
 "ccE" = (
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /obj/machinery/atmospherics/portables_connector,
 /obj/machinery/portable_atmospherics/powered/pump/filled,
@@ -51682,7 +51735,8 @@
 	},
 /obj/machinery/door/airlock/double/glass/engineering{
 	dir = 4;
-	name = "Engineering Break Room"
+	name = "Engineering Break Room";
+	pixel_x = -32
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/engineering/break_room)
@@ -52387,7 +52441,8 @@
 	dir = 6
 	},
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /obj/machinery/light{
 	dir = 1
@@ -53407,7 +53462,8 @@
 	name = "Xenobiology Operating Table"
 	},
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /obj/machinery/light{
 	dir = 1
@@ -53455,6 +53511,9 @@
 	},
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 4
+	},
+/obj/structure/sign/warning/high_voltage{
+	pixel_y = 32
 	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/research_port)
@@ -53510,10 +53569,6 @@
 /obj/random/tech_supply,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/construction)
-"cgP" = (
-/obj/structure/sign/warning/high_voltage,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/maintenance/starboardsolar)
 "cgQ" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable/green{
@@ -54459,7 +54514,8 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/double/glass/engineering{
 	dir = 4;
-	name = "Engineering EVA Storage"
+	name = "Engineering EVA Storage";
+	pixel_x = -32
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/engineering/engine_eva)
@@ -54939,7 +54995,8 @@
 /area/exodus/construction)
 "cjM" = (
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /obj/machinery/camera/network/medbay{
 	c_tag = "Virology Break/Access"
@@ -55307,9 +55364,12 @@
 /turf/simulated/floor/tiled/white,
 /area/exodus/research/xenobiology/xenoflora)
 "ckE" = (
-/obj/structure/sign/warning/radioactive,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/engineering/engine_monitoring)
+/obj/structure/sign/warning/high_voltage{
+	pixel_y = -32;
+	dir = 1
+	},
+/turf/space,
+/area/space)
 "ckF" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
@@ -55429,7 +55489,8 @@
 /obj/structure/table,
 /obj/item/storage/box/donkpockets,
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering/engine_monitoring)
@@ -55542,6 +55603,10 @@
 	dir = 8
 	},
 /obj/random/closet,
+/obj/structure/sign/warning/high_voltage{
+	pixel_x = -34;
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/engi_engine)
 "cle" = (
@@ -55625,7 +55690,8 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/double/glass/engineering{
-	dir = 4
+	dir = 4;
+	pixel_x = -32
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/engineering/locker_room)
@@ -55696,10 +55762,6 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/exodus/maintenance/substation/engineering)
-"clw" = (
-/obj/structure/sign/warning/high_voltage,
-/turf/simulated/wall/prepainted,
 /area/exodus/maintenance/substation/engineering)
 "clx" = (
 /obj/structure/disposalpipe/segment{
@@ -56032,9 +56094,15 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering/workshop)
 "cmc" = (
-/obj/structure/sign/warning/radioactive,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/engineering/engine_room)
+/obj/effect/floor_decal/corner/lime{
+	dir = 10
+	},
+/obj/structure/sign/department/star_of_life{
+	name = "Medbay";
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/hallway/primary/starboard)
 "cmd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -56679,7 +56747,8 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/double/glass/engineering{
-	dir = 4
+	dir = 4;
+	pixel_x = -32
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/engineering)
@@ -56818,6 +56887,9 @@
 /obj/structure/table,
 /obj/item/bonesetter,
 /obj/item/bonegel,
+/obj/machinery/status_display{
+	pixel_y = -32
+	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/exodus/medical/surgery)
 "cnT" = (
@@ -56903,6 +56975,9 @@
 /obj/structure/table,
 /obj/item/bonesetter,
 /obj/item/bonegel,
+/obj/machinery/status_display{
+	pixel_y = -32
+	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/exodus/medical/surgery2)
 "cod" = (
@@ -57385,9 +57460,14 @@
 /turf/simulated/floor/plating,
 /area/exodus/research/xenobiology)
 "cpc" = (
-/obj/machinery/status_display,
-/turf/simulated/wall/prepainted,
-/area/exodus/medical/surgery)
+/obj/structure/bed/chair/wood/walnut{
+	dir = 8
+	},
+/obj/machinery/status_display{
+	pixel_y = -32
+	},
+/turf/simulated/floor/wood/walnut,
+/area/exodus/crew_quarters/bar)
 "cpd" = (
 /obj/machinery/door/blast/regular{
 	density = FALSE;
@@ -57424,9 +57504,9 @@
 /turf/simulated/floor/tiled/white,
 /area/exodus/research/xenobiology)
 "cph" = (
-/obj/machinery/status_display,
-/turf/simulated/wall/prepainted,
-/area/exodus/medical/surgery2)
+/obj/structure/sign/warning/radioactive,
+/turf/space,
+/area/space)
 "cpi" = (
 /obj/machinery/space_heater,
 /turf/simulated/floor/plating,
@@ -60781,6 +60861,9 @@
 /obj/effect/floor_decal/corner/lime{
 	dir = 10
 	},
+/obj/machinery/status_display{
+	pixel_y = -32
+	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/virology)
 "cAt" = (
@@ -61186,10 +61269,6 @@
 /turf/simulated/floor/plating,
 /area/exodus/engineering/drone_fabrication)
 "cDk" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/engineering/engine_smes)
-"cDl" = (
-/obj/structure/sign/warning/high_voltage,
 /turf/simulated/wall/r_wall/prepainted,
 /area/exodus/engineering/engine_smes)
 "cDm" = (
@@ -62128,6 +62207,10 @@
 	dir = 9
 	},
 /obj/effect/floor_decal/industrial/warning,
+/obj/structure/sign/warning/radioactive{
+	dir = 8;
+	pixel_x = 34
+	},
 /turf/simulated/floor/plating,
 /area/exodus/engineering/engine_waste)
 "cHY" = (
@@ -62413,10 +62496,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/exodus/engineering/engine_room)
-"cJa" = (
-/obj/structure/sign/warning/high_voltage,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/maintenance/portsolar)
 "cJb" = (
 /obj/structure/cable/cyan{
 	icon_state = "1-2"
@@ -62554,6 +62633,10 @@
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
+	},
+/obj/structure/sign/warning/radioactive{
+	dir = 8;
+	pixel_x = 34
 	},
 /turf/simulated/floor/plating,
 /area/exodus/engineering/engine_waste)
@@ -63356,8 +63439,8 @@
 /area/ship/exodus_pod_mining)
 "doN" = (
 /obj/abstract/level_data_spawner/main_level{
-	name = "Exodus Operations Deck";
-},
+	name = "Exodus Operations Deck"
+	},
 /turf/space,
 /area/space)
 "drB" = (
@@ -63407,7 +63490,8 @@
 	dir = 5
 	},
 /obj/machinery/status_display{
-	pixel_y = 32
+	pixel_y = 32;
+	dir = 1
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/primary/central_one)
@@ -63770,7 +63854,8 @@
 /area/exodus/hallway/primary/aft)
 "hDl" = (
 /obj/structure/sign/warning/high_voltage{
-	pixel_y = -32
+	pixel_y = -32;
+	dir = 1
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -63779,6 +63864,10 @@
 /obj/machinery/door/window{
 	dir = 4;
 	name = "High-Risk Modules"
+	},
+/obj/machinery/status_display{
+	dir = 1;
+	pixel_y = 32
 	},
 /turf/simulated/floor/bluegrid,
 /area/exodus/turret_protected/ai_upload)
@@ -64608,7 +64697,8 @@
 /area/exodus/crew_quarters/kitchen)
 "sGZ" = (
 /obj/machinery/status_display{
-	pixel_x = 32
+	pixel_x = 32;
+	dir = 4
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 6
@@ -64951,8 +65041,18 @@
 /turf/simulated/floor/tiled/white,
 /area/exodus/research/robotics)
 "wTf" = (
-/turf/simulated/floor/airless,
-/area/exodus/turret_protected/ai)
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/lime{
+	dir = 10
+	},
+/obj/structure/sign/department/star_of_life{
+	name = "Medbay";
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/hallway/primary/starboard)
 "wTp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
@@ -81379,7 +81479,7 @@ awD
 avi
 awf
 awZ
-baz
+aFC
 aHU
 aJG
 aFC
@@ -81634,7 +81734,7 @@ aoN
 aAH
 aBS
 aAs
-aDZ
+aAF
 aFh
 aIK
 ayN
@@ -89944,7 +90044,7 @@ cGR
 cGR
 cLU
 cIK
-cJa
+cIK
 cJG
 cIK
 cIK
@@ -90396,7 +90496,7 @@ aEK
 bdY
 bmG
 bmG
-aJu
+bmG
 aHB
 bmG
 bmG
@@ -90406,8 +90506,8 @@ aLR
 aLR
 aLR
 bEw
-bGB
-ixD
+btC
+bhM
 bJl
 bKL
 btC
@@ -90660,7 +90760,7 @@ bmG
 bwB
 byj
 byj
-byj
+aLO
 bCQ
 byj
 btC
@@ -90675,7 +90775,7 @@ cLU
 cLU
 cLU
 cLU
-abw
+ckE
 bYI
 bYI
 bYI
@@ -91101,7 +91201,7 @@ cLU
 cLU
 aaf
 abd
-abr
+abd
 acb
 abd
 abd
@@ -91698,7 +91798,7 @@ bHM
 btC
 bNy
 aSX
-bQC
+aVv
 bUo
 bTr
 aSX
@@ -91994,11 +92094,11 @@ bZQ
 cDW
 cDW
 cGt
-cmc
+cGt
 cmo
 uGq
 cmr
-cmc
+cGt
 cGt
 cGt
 cGt
@@ -92517,8 +92617,8 @@ cHb
 cJo
 bIM
 bIM
-cmc
-cLU
+cGt
+cph
 cLU
 aaI
 cLU
@@ -92666,7 +92766,7 @@ akJ
 akF
 amm
 apw
-aoF
+atx
 ajG
 alx
 amw
@@ -93014,8 +93114,8 @@ cmv
 cyV
 bql
 bUh
-bUC
-cDl
+aDe
+cDk
 bZh
 bZC
 cai
@@ -93208,7 +93308,7 @@ aQI
 aNF
 aPy
 aQK
-aLO
+azb
 aAJ
 aVR
 aVR
@@ -93272,7 +93372,7 @@ bsq
 bql
 bUp
 bXH
-ckE
+cDJ
 cDJ
 cDJ
 cbA
@@ -93928,7 +94028,7 @@ cLU
 cLU
 aaf
 aaf
-abw
+ckE
 acp
 acp
 adf
@@ -93985,7 +94085,7 @@ auR
 avS
 avU
 fPF
-wTf
+eEn
 beb
 bgW
 aoi
@@ -94508,7 +94608,7 @@ bgx
 blA
 blT
 bGf
-bnj
+beb
 hDm
 btL
 bvN
@@ -94749,8 +94849,8 @@ aNZ
 aLQ
 aKF
 aPu
-eEV
-aLO
+aYT
+azb
 aAZ
 aVR
 aVR
@@ -94814,7 +94914,7 @@ cyZ
 bkA
 cdJ
 bYF
-ckE
+cDJ
 cDJ
 cDJ
 cDJ
@@ -94999,7 +95099,7 @@ aoH
 aoH
 aoH
 aCu
-aDe
+aCu
 aHc
 aCu
 auk
@@ -95601,8 +95701,8 @@ cuI
 cuH
 cJZ
 cLA
-cmc
-cLU
+cGt
+cph
 cLU
 aaI
 cLU
@@ -96027,7 +96127,7 @@ avW
 atE
 atE
 aCu
-aDe
+aCu
 axO
 aCu
 gsd
@@ -97881,7 +97981,7 @@ caq
 caq
 ciA
 ciA
-clw
+ciA
 coy
 cgs
 cpj
@@ -98319,7 +98419,7 @@ alf
 abb
 anQ
 anQ
-and
+anQ
 aoC
 anQ
 aoH
@@ -98606,7 +98706,7 @@ aJl
 aGJ
 aJl
 aJl
-aPr
+aJl
 aBu
 aJl
 aBu
@@ -98912,7 +99012,7 @@ ciS
 ciS
 ciS
 cnS
-cpc
+ciG
 cqi
 cro
 csD
@@ -100170,7 +100270,7 @@ bxC
 bxC
 bkc
 bxC
-bDy
+bxC
 bEO
 bGD
 bxC
@@ -100427,7 +100527,7 @@ bxe
 byx
 bAm
 bBZ
-bDp
+aPr
 bER
 bGI
 bIk
@@ -100930,7 +101030,7 @@ aZz
 dxK
 bii
 bjz
-bhM
+aZz
 bmf
 bnU
 bnX
@@ -101186,8 +101286,8 @@ btA
 aZz
 dxK
 bii
-iYA
-blQ
+wTf
+aZz
 bmb
 bnU
 bnX
@@ -101439,8 +101539,8 @@ aTX
 aTX
 aSS
 aSS
-aTk
-aYT
+cpc
+aZz
 dxK
 bik
 bjC
@@ -101957,8 +102057,8 @@ beZ
 aZz
 dxK
 bii
-rkN
-blQ
+cmc
+aZz
 bmb
 bnX
 bnX
@@ -101996,7 +102096,7 @@ cjc
 cjc
 cjc
 coc
-cph
+ciU
 cqq
 crB
 csK
@@ -102215,7 +102315,7 @@ aZz
 bgH
 bii
 bjD
-bhM
+aZz
 bmw
 bnX
 bnX
@@ -105821,7 +105921,7 @@ bov
 bua
 aXK
 aXK
-baA
+aXK
 bBJ
 aXK
 bBT
@@ -105863,7 +105963,7 @@ btn
 ceC
 cpH
 cAp
-bvP
+bmh
 cLU
 cLU
 cLU
@@ -106593,7 +106693,7 @@ bYf
 aXK
 aXK
 bAs
-baA
+aXK
 aXK
 bCp
 bFh
@@ -106891,7 +106991,7 @@ cpt
 ceC
 cpH
 cAp
-bvP
+bmh
 cLU
 cqD
 aaf
@@ -107642,7 +107742,7 @@ bZK
 caJ
 cce
 cdH
-ccd
+bYc
 cgG
 bYf
 cjl
@@ -107896,7 +107996,7 @@ bVg
 bWD
 bXW
 bZM
-bXZ
+bXY
 ccs
 cdG
 cgR
@@ -108361,7 +108461,7 @@ aoJ
 aAk
 aDB
 aDY
-aGy
+aCv
 aED
 aDC
 aDC
@@ -110702,7 +110802,7 @@ blO
 brh
 brh
 brh
-bwv
+brh
 bpp
 bpp
 aLr
@@ -115867,7 +115967,7 @@ bUn
 ccv
 cDE
 bOo
-cgP
+cgN
 chG
 cjx
 cfl
