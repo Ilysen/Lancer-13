@@ -189,10 +189,6 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/security/range)
-"aaA" = (
-/obj/structure/sign/warning/secure_area,
-/turf/simulated/wall/prepainted,
-/area/space)
 "aaB" = (
 /obj/machinery/camera/network/security{
 	c_tag = "Armory Exterior";
@@ -9565,6 +9561,9 @@
 /obj/structure/cable/green{
 	icon_state = "0-2"
 	},
+/obj/structure/sign/warning/secure_area{
+	pixel_y = 32
+	},
 /turf/simulated/floor/plating,
 /area/exodus/hallway/primary/port)
 "atV" = (
@@ -11220,12 +11219,6 @@
 "axA" = (
 /turf/simulated/floor/tiled/freezer,
 /area/exodus/crew_quarters/fitness)
-"axB" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/structure/sign/warning/secure_area,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/plating,
-/area/exodus/hallway/primary/central_one)
 "axC" = (
 /obj/machinery/door/airlock/glass{
 	name = "Holodeck"
@@ -15764,10 +15757,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/exodus/ai_monitored/storage/eva)
-"aGX" = (
-/obj/structure/sign/warning/secure_area,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/hallway/primary/starboard)
 "aGY" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -16497,7 +16486,8 @@
 /area/shuttle/arrival/station)
 "aIl" = (
 /obj/structure/sign/warning/secure_area{
-	pixel_x = 32
+	pixel_x = 34;
+	dir = 8
 	},
 /obj/structure/closet/emcloset,
 /turf/simulated/floor/plating,
@@ -16657,14 +16647,6 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/shuttle/arrival/station)
-"aIE" = (
-/obj/structure/sign/double/map/left,
-/turf/simulated/wall/prepainted,
-/area/exodus/hallway/secondary/entry/starboard)
-"aIF" = (
-/obj/structure/sign/double/map/right,
-/turf/simulated/wall/prepainted,
-/area/exodus/hallway/secondary/entry/starboard)
 "aIG" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -16739,10 +16721,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/hallway/primary/central_two)
-"aIQ" = (
-/obj/structure/sign/warning/secure_area,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/security/nuke_storage)
 "aIR" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -17141,6 +17119,9 @@
 /obj/effect/floor_decal/corner/lime{
 	dir = 5
 	},
+/obj/structure/sign/double/map/left{
+	pixel_y = 32
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/secondary/entry/starboard)
 "aJP" = (
@@ -17168,6 +17149,9 @@
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
+	},
+/obj/structure/sign/double/map/right{
+	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/secondary/entry/starboard)
@@ -18961,6 +18945,9 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/effect/floor_decal/corner/blue{
 	dir = 5
+	},
+/obj/structure/sign/warning/secure_area{
+	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/primary/central_one)
@@ -23138,6 +23125,10 @@
 	name = "Research Division Blast Doors";
 	opacity = FALSE
 	},
+/obj/structure/sign/warning/secure_area{
+	dir = 1;
+	pixel_y = -32
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/research)
 "aWX" = (
@@ -24231,7 +24222,8 @@
 /area/exodus/hallway/primary/central_one)
 "aZi" = (
 /obj/structure/sign/warning/secure_area{
-	pixel_x = 32
+	pixel_x = 34;
+	dir = 8
 	},
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
@@ -24837,7 +24829,8 @@
 /area/exodus/hallway/primary/central_one)
 "baE" = (
 /obj/structure/sign/warning/secure_area{
-	pixel_x = -32
+	pixel_x = -34;
+	dir = 4
 	},
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
@@ -29974,7 +29967,8 @@
 /area/exodus/quartermaster/storage)
 "blg" = (
 /obj/structure/sign/warning/secure_area{
-	pixel_x = 32
+	pixel_x = 34;
+	dir = 8
 	},
 /obj/effect/floor_decal/corner/lime/full,
 /obj/effect/floor_decal/industrial/loading{
@@ -32147,10 +32141,6 @@
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /turf/simulated/floor/plating,
 /area/exodus/storage/emergency)
-"bpK" = (
-/obj/machinery/ai_status_display,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/turret_protected/ai)
 "bpL" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 8
@@ -33479,6 +33469,10 @@
 	dir = 6;
 	icon_state = "warning"
 	},
+/obj/structure/sign/warning/secure_area{
+	dir = 1;
+	pixel_y = -32
+	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/research)
 "bsu" = (
@@ -33554,6 +33548,9 @@
 /obj/machinery/door/window/eastright{
 	dir = 8;
 	name = "Sublevel Access"
+	},
+/obj/machinery/ai_status_display{
+	pixel_y = 32
 	},
 /turf/simulated/floor/bluegrid,
 /area/exodus/turret_protected/ai_upload)
@@ -34345,10 +34342,6 @@
 /obj/structure/flora/pottedplant/minitree,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/primary/starboard)
-"bun" = (
-/obj/structure/sign/warning/secure_area,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/research)
 "buo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
@@ -35650,7 +35643,8 @@
 /area/exodus/maintenance/atmos_control)
 "bwP" = (
 /obj/structure/sign/warning/secure_area{
-	pixel_x = -32
+	pixel_x = -34;
+	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -38147,7 +38141,8 @@
 	},
 /obj/item/stool,
 /obj/structure/sign/warning/secure_area{
-	pixel_x = -32
+	pixel_x = -34;
+	dir = 4
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/exodus/teleporter)
@@ -38852,7 +38847,8 @@
 /area/exodus/hallway/primary/central_two)
 "bDk" = (
 /obj/structure/sign/warning/secure_area{
-	pixel_x = -32
+	pixel_x = -34;
+	dir = 4
 	},
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -39095,6 +39091,10 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
+/obj/structure/sign/warning/secure_area{
+	pixel_x = 34;
+	dir = 8
+	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/research_port)
 "bDH" = (
@@ -39218,7 +39218,6 @@
 /turf/simulated/floor/bluegrid,
 /area/exodus/research/server)
 "bDU" = (
-/obj/structure/sign/warning/secure_area,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -40506,7 +40505,8 @@
 /area/exodus/turret_protected/ai_cyborg_station)
 "bGy" = (
 /obj/machinery/door/airlock/double/glass/medical{
-	dir = 4
+	dir = 4;
+	pixel_x = -32
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/medical/sleeper)
@@ -41840,6 +41840,10 @@
 /obj/item/wirecutters,
 /obj/structure/table/steel,
 /obj/item/crowbar/brace_jack,
+/obj/structure/sign/warning/secure_area{
+	pixel_x = -34;
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/exodus/storage/tech)
 "bIX" = (
@@ -42224,9 +42228,6 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/primary/central_two)
 "bJE" = (
-/obj/structure/sign/warning/secure_area{
-	pixel_y = 32
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
@@ -46851,7 +46852,8 @@
 	dir = 1
 	},
 /obj/structure/sign/warning/secure_area{
-	pixel_x = -32
+	pixel_x = -34;
+	dir = 4
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/research/mixing)
@@ -47026,9 +47028,11 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/primary/aft)
 "bTr" = (
-/obj/structure/sign/warning/secure_area,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/storage/tech)
+/obj/structure/sign/warning/secure_area{
+	pixel_y = 32
+	},
+/turf/space,
+/area/space)
 "bTs" = (
 /obj/machinery/door/blast/shutters{
 	density = FALSE;
@@ -49967,10 +49971,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/medbay4)
-"bZq" = (
-/obj/structure/sign/department/greencross,
-/turf/simulated/wall/prepainted,
-/area/exodus/medical/medbay4)
 "bZr" = (
 /obj/structure/rack{
 	dir = 8
@@ -50657,6 +50657,9 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/effect/floor_decal/corner/pink{
 	dir = 5
+	},
+/obj/structure/sign/department/greencross{
+	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/ward)
@@ -52104,7 +52107,8 @@
 /area/exodus/hydroponics/garden)
 "cdE" = (
 /obj/structure/sign/warning/secure_area{
-	pixel_x = -32
+	pixel_x = -34;
+	dir = 4
 	},
 /obj/structure/hygiene/shower{
 	dir = 4;
@@ -52265,10 +52269,13 @@
 /obj/effect/floor_decal/corner/purple{
 	dir = 10
 	},
+/obj/structure/sign/warning/secure_area{
+	dir = 1;
+	pixel_y = -32
+	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/research/xenobiology)
 "cdW" = (
-/obj/structure/sign/warning/secure_area,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -52667,7 +52674,8 @@
 	pixel_y = -5
 	},
 /obj/structure/sign/warning/secure_area{
-	pixel_x = -32
+	pixel_x = -34;
+	dir = 4
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -53525,10 +53533,6 @@
 "cgI" = (
 /turf/simulated/floor/tiled/white,
 /area/exodus/research/xenobiology/xenoflora_storage)
-"cgJ" = (
-/obj/structure/sign/warning/secure_area,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/research/xenobiology)
 "cgK" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/effect/floor_decal/corner/purple{
@@ -55596,9 +55600,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/engineering/engine_eva)
 "cld" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
 	},
@@ -55606,6 +55607,9 @@
 /obj/structure/sign/warning/high_voltage{
 	pixel_x = -34;
 	dir = 4
+	},
+/obj/machinery/light/small{
+	dir = 1
 	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/engi_engine)
@@ -56398,6 +56402,10 @@
 /obj/effect/floor_decal/corner/yellow/three_quarters{
 	dir = 4
 	},
+/obj/structure/sign/warning/secure_area{
+	dir = 1;
+	pixel_y = -32
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering/foyer)
 "cmK" = (
@@ -56831,10 +56839,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/engineering)
-"cnJ" = (
-/obj/structure/sign/warning/secure_area,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/engineering/engineering_monitoring)
 "cnK" = (
 /obj/machinery/door/firedoor,
 /obj/structure/cable/green{
@@ -56850,9 +56854,13 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/engineering/workshop)
 "cnM" = (
-/obj/structure/sign/warning/secure_area,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/engineering/workshop)
+/obj/effect/floor_decal/corner/purple/full,
+/obj/structure/sign/warning/secure_area{
+	dir = 1;
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/hallway/primary/starboard)
 "cnN" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/table/glass,
@@ -57504,7 +57512,9 @@
 /turf/simulated/floor/tiled/white,
 /area/exodus/research/xenobiology)
 "cph" = (
-/obj/structure/sign/warning/radioactive,
+/obj/structure/sign/warning/radioactive{
+	pixel_y = 32
+	},
 /turf/space,
 /area/space)
 "cpi" = (
@@ -61103,6 +61113,10 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
+/obj/structure/sign/warning/secure_area{
+	pixel_x = 34;
+	dir = 8
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering)
 "cCz" = (
@@ -64229,7 +64243,8 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/double/glass/engineering{
 	dir = 4;
-	name = "Engineering Locker Room"
+	name = "Engineering Locker Room";
+	pixel_x = -32
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/engineering/workshop)
@@ -64901,6 +64916,10 @@
 /area/space)
 "uKl" = (
 /obj/effect/floor_decal/corner/yellow/three_quarters,
+/obj/structure/sign/warning/secure_area{
+	dir = 1;
+	pixel_y = -32
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering/foyer)
 "uRH" = (
@@ -80195,7 +80214,7 @@ bsi
 bke
 awV
 axJ
-aIE
+aIA
 aJO
 aLz
 aLz
@@ -80452,7 +80471,7 @@ aCy
 aDX
 cxb
 bdw
-aIF
+aIA
 aJQ
 aLA
 aNf
@@ -85849,7 +85868,7 @@ aCC
 gcu
 gcu
 aFv
-aIQ
+aBY
 atU
 axk
 aNs
@@ -86363,7 +86382,7 @@ biX
 gcu
 gcu
 aFy
-aIQ
+aBY
 atU
 axk
 aNr
@@ -91800,7 +91819,7 @@ bNy
 aSX
 aVv
 bUo
-bTr
+aVv
 aSX
 bNy
 aVv
@@ -92276,7 +92295,7 @@ aIH
 azS
 ayL
 aKx
-axB
+auk
 aNL
 aPv
 eEV
@@ -92480,8 +92499,8 @@ cLU
 crP
 aaf
 aaf
-aaA
-cLU
+aah
+bTr
 cLU
 abh
 abg
@@ -93580,7 +93599,7 @@ bkn
 blA
 blR
 bFo
-bpK
+beb
 bsB
 btL
 bvH
@@ -93614,7 +93633,7 @@ cbF
 cbF
 cbF
 uKl
-cnJ
+cnG
 bjV
 bLn
 bLn
@@ -94642,7 +94661,7 @@ ced
 cjY
 cli
 cmJ
-cnM
+cnO
 bkA
 bkA
 bkA
@@ -101570,7 +101589,7 @@ bTJ
 bSJ
 bWk
 bXE
-bZq
+bTJ
 caL
 cbT
 cdq
@@ -111568,11 +111587,11 @@ bhl
 biK
 rkN
 brU
-brU
-aGX
+cnM
+blO
 bqN
 bst
-bun
+bww
 bwy
 aMd
 bCh
@@ -111597,7 +111616,7 @@ aWX
 bww
 bkj
 cdU
-cgJ
+cdO
 bce
 bJN
 bNS
