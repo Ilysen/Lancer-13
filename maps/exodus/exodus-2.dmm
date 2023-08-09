@@ -236,7 +236,8 @@
 /area/space)
 "aaK" = (
 /obj/structure/sign/warning/airlock{
-	pixel_x = -32
+	pixel_x = -34;
+	dir = 4
 	},
 /obj/machinery/atmospherics/portables_connector,
 /obj/machinery/portable_atmospherics/canister/air/airlock,
@@ -9294,11 +9295,12 @@
 /turf/simulated/floor/plating,
 /area/exodus/security/prison/dorm)
 "atf" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/structure/sign/warning/airlock,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/plating,
-/area/exodus/hallway/secondary/entry/fore)
+/obj/structure/sign/warning/airlock{
+	pixel_y = -32;
+	dir = 1
+	},
+/turf/space,
+/area/space)
 "atg" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/exodus/security/prison/dorm)
@@ -10689,9 +10691,12 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/security/prison)
 "awq" = (
-/obj/structure/sign/warning/airlock,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/hallway/secondary/entry/fore)
+/obj/structure/grille,
+/obj/structure/sign/warning/docking_area{
+	pixel_y = 32
+	},
+/turf/simulated/floor/plating,
+/area/exodus/maintenance/exterior)
 "awr" = (
 /obj/machinery/seed_storage/garden{
 	dir = 1
@@ -11254,6 +11259,10 @@
 /obj/structure/table,
 /obj/machinery/recharger,
 /obj/effect/floor_decal/industrial/warning,
+/obj/structure/sign/warning/airlock{
+	pixel_x = -34;
+	dir = 4
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/secondary/entry/fore)
 "axI" = (
@@ -11261,7 +11270,8 @@
 	icon_state = "1-2"
 	},
 /obj/structure/sign/warning/airlock{
-	pixel_x = -32
+	pixel_x = -34;
+	dir = 4
 	},
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1
@@ -11505,6 +11515,10 @@
 	},
 /obj/machinery/light/small{
 	dir = 4
+	},
+/obj/structure/sign/warning/airlock{
+	pixel_x = 34;
+	dir = 8
 	},
 /turf/simulated/floor/plating,
 /area/exodus/hallway/secondary/entry/fore)
@@ -11981,7 +11995,8 @@
 "ayZ" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/structure/sign/warning/airlock{
-	pixel_y = -32
+	pixel_y = -32;
+	dir = 1
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/secondary/entry/fore)
@@ -12713,7 +12728,8 @@
 /area/exodus/gateway)
 "aAH" = (
 /obj/structure/sign/warning/airlock{
-	pixel_x = 32
+	pixel_x = 34;
+	dir = 8
 	},
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -13142,6 +13158,9 @@
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 9
+	},
+/obj/structure/sign/warning/docking_area{
+	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/secondary/entry/port)
@@ -13858,6 +13877,10 @@
 "aDn" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
+	},
+/obj/structure/sign/warning/airlock{
+	pixel_y = -32;
+	dir = 1
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/secondary/entry/port)
@@ -16083,9 +16106,13 @@
 /turf/simulated/floor/tiled/dark,
 /area/exodus/chapel/main)
 "aHF" = (
-/obj/structure/sign/warning/docking_area,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/hallway/secondary/entry/port)
+/obj/structure/lattice,
+/obj/structure/sign/warning/docking_area{
+	pixel_y = -32;
+	dir = 1
+	},
+/turf/space,
+/area/space)
 "aHG" = (
 /obj/machinery/door/window{
 	dir = 8;
@@ -16513,9 +16540,16 @@
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/bar)
 "aIo" = (
-/obj/structure/sign/warning/docking_area,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/maintenance/exterior)
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/sign/warning/airlock{
+	pixel_x = -34;
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/hallway/secondary/entry/aft)
 "aIp" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -17452,7 +17486,6 @@
 /area/exodus/ai_monitored/storage/eva)
 "aKz" = (
 /obj/effect/wallframe_spawn/reinforced,
-/obj/structure/sign/warning/airlock,
 /obj/machinery/door/firedoor,
 /turf/simulated/wall/prepainted,
 /area/exodus/hallway/secondary/entry/port)
@@ -20216,7 +20249,8 @@
 /area/exodus/security/prison/dorm)
 "aQo" = (
 /obj/structure/sign/warning/airlock{
-	pixel_x = 32
+	pixel_x = 34;
+	dir = 8
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/steel_grid,
@@ -20467,11 +20501,12 @@
 /turf/simulated/floor/wood/walnut,
 /area/exodus/library)
 "aQU" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/structure/sign/warning/docking_area,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/plating,
-/area/exodus/hallway/secondary/exit)
+/obj/structure/lattice,
+/obj/structure/sign/warning/docking_area{
+	pixel_y = 32
+	},
+/turf/space,
+/area/space)
 "aQV" = (
 /obj/item/chems/glass/bucket,
 /obj/effect/floor_decal/corner/lime{
@@ -21681,11 +21716,11 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/secondary/entry/starboard)
 "aTw" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/structure/sign/warning/airlock,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/plating,
-/area/exodus/hallway/secondary/entry/aft)
+/obj/structure/sign/warning/airlock{
+	pixel_y = 32
+	},
+/turf/space,
+/area/space)
 "aTx" = (
 /obj/machinery/door/firedoor,
 /obj/structure/cable/green{
@@ -25762,10 +25797,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/exodus/medical/surgery2)
-"bcy" = (
-/obj/structure/sign/warning/docking_area,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/hallway/secondary/entry/aft)
 "bcz" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/floor_decal/corner/blue{
@@ -26122,6 +26153,10 @@
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
+	},
+/obj/structure/sign/warning/airlock{
+	pixel_x = -34;
+	dir = 4
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/secondary/entry/aft)
@@ -27921,7 +27956,8 @@
 /area/exodus/hallway/primary/starboard)
 "bhn" = (
 /obj/structure/sign/warning/airlock{
-	pixel_x = 32
+	pixel_x = 34;
+	dir = 8
 	},
 /obj/effect/floor_decal/corner/white{
 	dir = 8
@@ -30212,10 +30248,6 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/primary/central_one)
-"blM" = (
-/obj/structure/sign/warning/docking_area,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/storage/emergency)
 "blN" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/airlock/command{
@@ -31258,10 +31290,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/chemistry)
-"bnP" = (
-/obj/structure/sign/warning/docking_area,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/maintenance/locker)
 "bnQ" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 4
@@ -31841,12 +31869,6 @@
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/steel_grid,
-/area/exodus/quartermaster/storage)
-"bpf" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/structure/sign/warning/airlock,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/plating,
 /area/exodus/quartermaster/storage)
 "bpg" = (
 /obj/item/stack/package_wrap,
@@ -32777,7 +32799,8 @@
 /area/exodus/maintenance/research_shuttle)
 "bqY" = (
 /obj/structure/sign/warning/docking_area{
-	pixel_y = -32
+	pixel_y = -32;
+	dir = 1
 	},
 /turf/space,
 /area/space)
@@ -33607,6 +33630,10 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
 	},
+/obj/structure/sign/warning/airlock{
+	pixel_y = -32;
+	dir = 1
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/secondary/entry/aft)
 "bsM" = (
@@ -34073,7 +34100,8 @@
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
 /obj/structure/sign/warning/airlock{
-	pixel_y = -32
+	pixel_y = -32;
+	dir = 1
 	},
 /turf/simulated/floor/plating,
 /area/exodus/research/docking)
@@ -34692,8 +34720,8 @@
 /obj/structure/sign/warning/docking_area{
 	pixel_y = 32
 	},
-/turf/simulated/wall/prepainted,
-/area/exodus/quartermaster/miningdock)
+/turf/simulated/floor/airless,
+/area/space)
 "buR" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /obj/machinery/door/firedoor,
@@ -41357,7 +41385,8 @@
 "bHY" = (
 /obj/machinery/disposal,
 /obj/structure/sign/warning/airlock{
-	pixel_x = -32
+	pixel_x = -34;
+	dir = 4
 	},
 /obj/structure/disposalpipe/trunk,
 /obj/effect/floor_decal/industrial/warning/corner,
@@ -41878,6 +41907,10 @@
 "bIZ" = (
 /obj/effect/floor_decal/corner/brown/three_quarters{
 	dir = 8
+	},
+/obj/structure/sign/warning/docking_area{
+	dir = 4;
+	pixel_x = -34
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/quartermaster/miningdock)
@@ -43980,6 +44013,9 @@
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 9
+	},
+/obj/structure/sign/warning/docking_area{
+	pixel_y = 32
 	},
 /turf/simulated/floor,
 /area/exodus/quartermaster/miningdock)
@@ -47421,12 +47457,6 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/crew_quarters/heads/chief)
-"bUb" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/machinery/door/firedoor,
-/obj/structure/sign/warning/docking_area,
-/turf/simulated/floor/plating,
-/area/exodus/quartermaster/miningdock)
 "bUc" = (
 /obj/machinery/atmospherics/binary/passive_gate{
 	dir = 8
@@ -48296,7 +48326,8 @@
 /area/exodus/engineering/engineering_monitoring)
 "bVZ" = (
 /obj/structure/sign/warning/airlock{
-	pixel_y = -32
+	pixel_y = -32;
+	dir = 1
 	},
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 8;
@@ -49846,9 +49877,6 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/crew_quarters/sleep/engi_wash)
 "bZc" = (
-/obj/structure/sign/directions/pods{
-	dir = 1
-	},
 /turf/simulated/wall/r_wall/prepainted,
 /area/exodus/engineering/engine_eva)
 "bZd" = (
@@ -52888,7 +52916,8 @@
 /area/exodus/medical/biostorage)
 "cfl" = (
 /obj/structure/sign/warning/airlock{
-	pixel_y = -32
+	pixel_y = -32;
+	dir = 1
 	},
 /obj/machinery/atmospherics/portables_connector{
 	dir = 8
@@ -53066,6 +53095,10 @@
 /area/exodus/construction)
 "cfH" = (
 /obj/structure/disposalpipe/segment,
+/obj/structure/sign/directions/pods{
+	dir = 1;
+	pixel_x = 32
+	},
 /turf/simulated/floor,
 /area/exodus/maintenance/atmos_control)
 "cfI" = (
@@ -54111,7 +54144,8 @@
 	pixel_y = -20
 	},
 /obj/structure/sign/warning/airlock{
-	pixel_x = 32
+	pixel_x = 34;
+	dir = 8
 	},
 /obj/effect/floor_decal/industrial/warning,
 /obj/machinery/atmospherics/pipe/manifold/visible{
@@ -56001,9 +56035,11 @@
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/virology/access)
 "clS" = (
-/obj/structure/sign/warning/docking_area,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/maintenance/engi_shuttle)
+/obj/structure/sign/warning/docking_area{
+	pixel_y = 32
+	},
+/turf/space,
+/area/space)
 "clT" = (
 /obj/structure/sign/warning/fire{
 	pixel_y = 32
@@ -56029,10 +56065,6 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/exodus/research/xenobiology/xenoflora_storage)
-"clW" = (
-/obj/structure/sign/warning/docking_area,
-/turf/simulated/wall/r_wall/prepainted,
-/area/exodus/maintenance/engineering)
 "clX" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -58274,6 +58306,10 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
 	},
+/obj/structure/sign/warning/docking_area{
+	pixel_y = -32;
+	dir = 1
+	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/engi_shuttle)
 "crr" = (
@@ -58693,6 +58729,9 @@
 	},
 /obj/machinery/camera/network/engine{
 	c_tag = "Engine Radiator"
+	},
+/obj/structure/sign/warning/docking_area{
+	pixel_y = 32
 	},
 /turf/space,
 /area/space)
@@ -64371,13 +64410,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/exodus/engineering/storage)
-"otj" = (
-/obj/structure/sign/warning/airlock,
-/turf/simulated/wall/prepainted,
-/area/exodus/quartermaster/miningdock)
 "ouk" = (
 /obj/effect/floor_decal/corner/brown{
 	dir = 10
+	},
+/obj/structure/sign/directions/pods{
+	pixel_y = -32
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/primary/central_three)
@@ -64968,6 +65006,10 @@
 /obj/machinery/computer/shuttle_control/mining{
 	dir = 4
 	},
+/obj/structure/sign/warning/airlock{
+	pixel_x = -34;
+	dir = 4
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/quartermaster/miningdock)
 "vKw" = (
@@ -65009,6 +65051,10 @@
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
+	},
+/obj/structure/sign/warning/docking_area{
+	pixel_y = -32;
+	dir = 1
 	},
 /turf/simulated/floor,
 /area/exodus/quartermaster/miningdock)
@@ -72753,7 +72799,7 @@ crP
 cLU
 cLU
 cLU
-atf
+cec
 aFD
 cec
 cLU
@@ -73014,16 +73060,16 @@ cec
 cex
 cec
 cLU
-aaf
-aIo
+aHF
+apc
 aph
 aph
 aph
 aph
 aph
 aph
-aIo
-aaf
+apc
+aQU
 aKz
 aLE
 aLP
@@ -73266,7 +73312,7 @@ cLU
 cec
 cec
 cec
-awq
+atS
 cec
 ceI
 cec
@@ -74051,7 +74097,7 @@ iNs
 esY
 cLU
 cLU
-aHF
+aBI
 aBE
 aBF
 aDn
@@ -74581,8 +74627,8 @@ cLU
 cLU
 cLU
 cLU
-bcy
-aaf
+bgo
+aQU
 crP
 cLU
 cLU
@@ -74831,8 +74877,8 @@ cLU
 cLU
 cLU
 cLU
-cLU
-bcy
+bqY
+bgo
 cLU
 cLU
 cLU
@@ -76383,7 +76429,7 @@ cLU
 aCj
 czq
 cAk
-aTw
+aCj
 cLU
 cLU
 cLU
@@ -76884,13 +76930,13 @@ aDq
 aVj
 axF
 aaf
-aTw
+aCj
 aNl
 aCj
 aaf
 bgo
 aaf
-aTw
+aCj
 aOd
 aCj
 cLU
@@ -77154,8 +77200,8 @@ aCj
 aCj
 bgw
 bsP
-bcy
-cLU
+bgo
+clS
 cLU
 cLU
 cLU
@@ -77663,7 +77709,7 @@ bdH
 bhu
 aZO
 bkq
-aZO
+aIo
 bnt
 boY
 bho
@@ -80237,7 +80283,7 @@ bmV
 bps
 bqG
 baj
-cLU
+clS
 cLU
 cLU
 cLU
@@ -80507,8 +80553,8 @@ aQh
 aQh
 aQh
 aQh
-aIo
-cLU
+apc
+clS
 cLU
 cLU
 cLU
@@ -81264,7 +81310,7 @@ bmo
 bmW
 bmW
 bqM
-bnP
+brG
 cLU
 cLU
 cLU
@@ -82292,7 +82338,7 @@ beG
 beG
 bbZ
 bkW
-bnP
+brG
 cLU
 cLU
 cLU
@@ -82808,15 +82854,15 @@ brG
 bkW
 baj
 aap
-cLU
-bpf
+atf
+aLF
 aQC
 aRB
-bpf
+aLF
 aRB
 aRF
-bpf
-cLU
+aLF
+aTw
 bqY
 apc
 aQh
@@ -82830,8 +82876,8 @@ aQh
 aQh
 aQh
 aQh
-aIo
-cLU
+apc
+clS
 cLU
 cLU
 cLU
@@ -83064,7 +83110,7 @@ bgi
 brG
 aTQ
 baj
-aap
+buQ
 cLU
 aLF
 bxR
@@ -84875,11 +84921,11 @@ aLF
 cLU
 cLU
 cLU
-bUb
+aSC
 bNg
 hbt
 wiC
-bUb
+aSC
 aaf
 aaf
 cLU
@@ -85386,13 +85432,13 @@ brd
 bvU
 bEj
 bdP
-buQ
+bGt
 bGt
 bGt
 bGt
 bGt
 fmR
-otj
+bGt
 bGt
 bGt
 aaf
@@ -96735,7 +96781,7 @@ cCz
 byA
 byA
 byA
-clS
+byA
 rQB
 cKX
 gwY
@@ -98279,11 +98325,11 @@ cea
 cea
 cea
 cea
-clW
+cea
+awq
 aQh
 aQh
-aQh
-aIo
+apc
 csA
 csX
 csX
@@ -115687,8 +115733,8 @@ cLU
 cLU
 cLU
 cLU
-cLU
-aQU
+bqY
+azP
 aLW
 azP
 aaf
@@ -115696,8 +115742,8 @@ cLU
 aaf
 azP
 aNM
+azP
 aQU
-aaf
 cLU
 cLU
 aac
@@ -115957,8 +116003,8 @@ cLU
 cLU
 cLU
 cLU
-cLU
-blM
+bqY
+bjl
 bjl
 bjl
 bjl
